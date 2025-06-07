@@ -9,5 +9,7 @@ public class ApplicationDbContext : DbContext
             
     }
 
-    public DbSet<Client> Clients { get; set; }
+    public DbSet<Client> Client { get; set; }
+    public DbSet<Subscription> Subscription { get; set; }
+    public DbSet<Payment> Payment { get; set; }
 }
